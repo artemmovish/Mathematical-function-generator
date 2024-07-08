@@ -1,0 +1,30 @@
+config
+T_level= 3
+operators
+/= 2
+*= 6
++= 3
+-= 2
+function
+sqrt= 0
+1/u= 0
+sin= sin(u)
+cos= cos(u)
+tan= tan(u)
+ctg= ctg(u)
+exp= exp(u)
+log= log(u)
+ln= ln(u)
+2= arcsin(u)
+3= arccos(u)
+1= arctan(u)
+4= arcctg(u)
+bad_fun
+u^a= u^a
+a^u= a^u
+rules
+(C * u)'= 1
+(u + v)'= 1
+(u - v)'= 1
+(u * v)'= 1
+(u/a)'= 1
